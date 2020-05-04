@@ -115,7 +115,7 @@ public class ElementHandler extends BaseHandler {
 	}
 
 	public void waitForTextTobePresentTextbox(String selector) {
-		WebElement textElement = findElement(selector);
+		final WebElement textElement = findElement(selector);
 		(new WebDriverWait(driver, PropertiesRepository.getInt("global.driver.wait")))
 				.until(new ExpectedCondition<Boolean>() {
 					public Boolean apply(WebDriver webDriver) {

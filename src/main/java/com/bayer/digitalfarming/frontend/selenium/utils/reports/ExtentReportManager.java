@@ -47,7 +47,6 @@ import com.google.common.collect.LinkedHashMultimap;
 import com.google.common.collect.Multimap;
 
 public class ExtentReportManager implements ITestListener, IReporter {
-
 	/*
 	 * private static final String OUTPUT_FOLDER = "test-output/"; private static
 	 * final String FILE_NAME = "Extent.html";
@@ -91,6 +90,7 @@ public class ExtentReportManager implements ITestListener, IReporter {
 
 		extent = new ExtentReports();
 		Path path = Paths.get(System.getProperty("user.dir") + "/Reports");
+		System.out.println("Report Path is first:"+path);
 		if (!Files.exists(path)) {
 			try {
 				Files.createDirectories(path);
@@ -102,6 +102,7 @@ public class ExtentReportManager implements ITestListener, IReporter {
 		DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
 		Calendar cal = Calendar.getInstance();
 		File file = new File(System.getProperty("user.dir") + "/Reports");
+		System.out.println("Report Path is Second :"+path);
 		if (!file.exists()) {
 			file.mkdir();
 		}

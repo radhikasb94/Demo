@@ -21,7 +21,7 @@ public final class DriverFactory {
 	private Logger logger = LogManager.getLogger(DriverFactory.class);
 	public DesiredCapabilities capabilities;
 
-	private DriverFactory() {
+	public DriverFactory() {
 	}
 
 	private static DriverFactory instance = new DriverFactory();
@@ -31,14 +31,18 @@ public final class DriverFactory {
 	}
 
 	/***
-	 * Thread local threadDriver object for webdriver
+	 *  Thread local threadDriver object for webdriver
 	 */
 	ThreadLocal<WebDriver> threadDriver = new ThreadLocal<WebDriver>() {
 		@SuppressWarnings("deprecation")
 		@Override
 		protected WebDriver initialValue() {
 
-			String browserType = PropertiesRepository.getString("global.browser.name");
+			//String browserType = PropertiesRepository.getString("global.browser.name");
+			/* ----------------Pushpendra 
+			 * Changing to Chrome Browser
+			 */
+			String browserType = PropertiesRepository.getString("global.browser.capability.browserName");
 			DesiredCapabilities dc = CapabilityGenerator.getCapabilities(browserType);
 			logger.info("Desired Capabilities : " + dc);
 
@@ -60,8 +64,9 @@ public final class DriverFactory {
 					case GlobalProperties.CHROME:
 						//return new ChromeDriver(dc);
 						try {
-							return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), dc);
-						} catch (MalformedURLException e) {
+							//return new RemoteWebDriver(new URL("https://www.google.co.in/"), dc);
+							return new ChromeDriver(dc);
+						} catch (Exception e) {
 							e.printStackTrace();
 						}
 					default:

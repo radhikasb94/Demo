@@ -35,10 +35,10 @@ public class BaseTest {
 		manageDriver(driver);
 	}
 
-	@AfterMethod
+	/*@AfterMethod
 	public void tearDown(ITestResult result) {
 		DriverFactory.getInstance().removeDriver();
-	}
+	}*/
 
 	private void manageDriver(WebDriver webDriver) {
 		webDriver.manage().window().maximize();
