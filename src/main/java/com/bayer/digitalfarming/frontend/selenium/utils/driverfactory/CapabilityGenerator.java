@@ -65,13 +65,14 @@ public class CapabilityGenerator {
 		case GlobalProperties.CHROME:
 
 			ChromeOptions options = new ChromeOptions();
-			//options.addArguments("–no-sandbox","–disable-infobars");
+			// options.addArguments("–no-sandbox","–disable-infobars");
 			cap = DesiredCapabilities.chrome();
 
 			if (System.getProperty("os.name").startsWith("Windows")) {
 
-				System.setProperty("webdriver.chrome.driver",PropertiesRepository.getString("global.browser.chrome.driver.executable.windows"));
-				
+				System.setProperty("webdriver.chrome.driver",
+						PropertiesRepository.getString("global.browser.chrome.driver.executable.windows"));
+
 				System.out.println("CHROME ON WINDOWS");
 				options.setCapability("Capablity_name", "Capablity_value");
 				options.addArguments("-no-Sandbox");
@@ -79,51 +80,51 @@ public class CapabilityGenerator {
 				options.addArguments("test-type");
 				options.addArguments("start-maximized");
 				options.addArguments("disabled-infobars");
-				options.setExperimentalOption("useAutomationExtension",false);
+				options.setExperimentalOption("useAutomationExtension", false);
 				cap.setCapability(ChromeOptions.CAPABILITY, options);
-				//WebDriver driver=new ChromeDriver();
+				// WebDriver driver=new ChromeDriver();
 				System.out.println("CHROME Loaded");
 				// ------Pushpendra
 				// ----Added for Desigred Capabilities---------
-				
-				//cap = DesiredCapabilities.chrome();
-				/*cap.setBrowserName(
-						PropertiesRepository.getString("global.browser.capability.browserName"));
-				cap.setJavascriptEnabled(true);
-				cap.setCapability("platform",
-						PropertiesRepository.getString("global.browser.capability.platform"));
-				cap.setCapability("takesScreenshot", PropertiesRepository
-						.getBoolean("global.browser.capability.chrome.takesScreenshot"));
-				cap.setCapability("handlesAlerts", PropertiesRepository
-						.getBoolean("global.browser.capability.chrome.handlesAlerts"));
-				cap.setCapability("cssSelectorsEnabled", PropertiesRepository
-						.getBoolean("global.browser.capability.chrome.cssSelectorsEnabled"));
-				options.setBinary(
-						PropertiesRepository.getString("global.browser.chrome.driver.executable"));
-				String extensions = PropertiesRepository
-						.getString("global.browser.capability.chrome.extensions");
-				if (extensions != null && !extensions.trim().equals("")) {
-					StringTokenizer tokens = new StringTokenizer(extensions, ",");
-					String extensionPath = PropertiesRepository
-							.getString("global.browser.capability.chrome.extensionpath");
-					File[] extFiles = new File[tokens.countTokens()];
-					int i = 0;
-					while (tokens.hasMoreElements()) {
-						extFiles[i] = new File(extensionPath + "/" + tokens.nextToken());
-						i++;
-					}
-					options.addExtensions(extFiles);
-				}
 
-				Map<String, Object> prefs = new HashMap<String, Object>();
-				prefs.put("profile.default_content_settings.popups", 0);
-				prefs.put("download.prompt_for_download", false);
-				prefs.put("download.default_directory",
-						PropertiesRepository.getString("global.download.location"));
+				// cap = DesiredCapabilities.chrome();
+				/*
+				 * cap.setBrowserName( PropertiesRepository.getString(
+				 * "global.browser.capability.browserName"));
+				 * cap.setJavascriptEnabled(true); cap.setCapability("platform",
+				 * PropertiesRepository.getString(
+				 * "global.browser.capability.platform"));
+				 * cap.setCapability("takesScreenshot", PropertiesRepository
+				 * .getBoolean(
+				 * "global.browser.capability.chrome.takesScreenshot"));
+				 * cap.setCapability("handlesAlerts", PropertiesRepository
+				 * .getBoolean("global.browser.capability.chrome.handlesAlerts")
+				 * ); cap.setCapability("cssSelectorsEnabled",
+				 * PropertiesRepository .getBoolean(
+				 * "global.browser.capability.chrome.cssSelectorsEnabled"));
+				 * options.setBinary( PropertiesRepository.getString(
+				 * "global.browser.chrome.driver.executable")); String
+				 * extensions = PropertiesRepository
+				 * .getString("global.browser.capability.chrome.extensions"); if
+				 * (extensions != null && !extensions.trim().equals("")) {
+				 * StringTokenizer tokens = new StringTokenizer(extensions,
+				 * ","); String extensionPath = PropertiesRepository
+				 * .getString("global.browser.capability.chrome.extensionpath");
+				 * File[] extFiles = new File[tokens.countTokens()]; int i = 0;
+				 * while (tokens.hasMoreElements()) { extFiles[i] = new
+				 * File(extensionPath + "/" + tokens.nextToken()); i++; }
+				 * options.addExtensions(extFiles); }
+				 * 
+				 * Map<String, Object> prefs = new HashMap<String, Object>();
+				 * prefs.put("profile.default_content_settings.popups", 0);
+				 * prefs.put("download.prompt_for_download", false);
+				 * prefs.put("download.default_directory",
+				 * PropertiesRepository.getString("global.download.location"));
+				 * 
+				 * options.setExperimentalOption("prefs", prefs);
+				 */
 
-				options.setExperimentalOption("prefs", prefs);*/
-
-				//cap.setCapability(ChromeOptions.CAPABILITY, options);
+				// cap.setCapability(ChromeOptions.CAPABILITY, options);
 				break;
 			} else
 
@@ -180,4 +181,5 @@ public class CapabilityGenerator {
 		}
 		return cap;
 	}
+
 }

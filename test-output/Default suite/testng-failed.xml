@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.bayer.digitalfarming.frontend.selenium.utils.test.YourTest">
+      <class name="com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon">
         <methods>
           <include name="setup"/>
-          <include name="testFunctionality"/>
+          <include name="tearDown"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.bayer.digitalfarming.frontend.selenium.utils.test.YourTest -->
+      </class> <!-- com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -38,7 +38,7 @@ public class ElementHandler extends BaseHandler {
 				element.click();
 			}
 		} catch (WebDriverException e) {
-			Assert.fail("Unable to click on the element: " + selectorName(selector)+ "\n ");
+			Assert.fail("Unable to click on the element: " + selectorName(selector) + "\n ");
 		}
 		if (waitFor != null && waitFor.length > 0) {
 			setWebDriverWait(waitFor[0]);
@@ -53,7 +53,7 @@ public class ElementHandler extends BaseHandler {
 				element.click();
 			}
 		} catch (WebDriverException e) {
-			Assert.fail("Unable to click on the element: " + selectorName(selector) + "\n " );
+			Assert.fail("Unable to click on the element: " + selectorName(selector) + "\n ");
 		}
 	}
 
@@ -67,7 +67,7 @@ public class ElementHandler extends BaseHandler {
 				textElement.sendKeys(text);
 			}
 		} catch (WebDriverException e) {
-			Assert.fail("Unable to click on the element: " + selectorName(selector) + "\n " );
+			Assert.fail("Unable to click on the element: " + selectorName(selector) + "\n ");
 		}
 		if (waitFor != null && waitFor.length > 0) {
 			setWebDriverWait(waitFor[0]);
@@ -108,8 +108,8 @@ public class ElementHandler extends BaseHandler {
 				text = textElement.getAttribute(attribute);
 			}
 		} catch (WebDriverException e) {
-			Assert.fail("Unable to get the text from " + 
-					attribute + " attribute of an element: " + selectorName(selector) + "\n ");
+			Assert.fail("Unable to get the text from " + attribute + " attribute of an element: "
+					+ selectorName(selector) + "\n ");
 		}
 		return text;
 	}
@@ -171,7 +171,7 @@ public class ElementHandler extends BaseHandler {
 				dropdown.selectByValue(value);
 			}
 		} catch (WebDriverException e) {
-			Assert.fail("Unable to select value from the dropdown:" + selectorName(selector) + "\n " );
+			Assert.fail("Unable to select value from the dropdown:" + selectorName(selector) + "\n ");
 		}
 		if (waitFor != null && waitFor.length > 0) {
 			setWebDriverWait(waitFor[0]);
@@ -213,7 +213,7 @@ public class ElementHandler extends BaseHandler {
 		try {
 			driver.get(url);
 		} catch (WebDriverException e) {
-			Assert.fail("Unable to launch the application url: " + url + "\n"+e.getMessage());
+			Assert.fail("Unable to launch the application url: " + url + "\n" + e.getMessage());
 		}
 		if (waitFor != null && waitFor.length > 0) {
 			setWebDriverWait(waitFor[0]);
@@ -261,11 +261,11 @@ public class ElementHandler extends BaseHandler {
 
 	public boolean isElementPresent(String selector) {
 		boolean isTrue = false;
-			List<WebElement> element = findElements(selector);
-			if (element.size()>0) {
-				isTrue = true;
-			}
+		List<WebElement> element = findElements(selector);
+		if (element.size() > 0) {
+			isTrue = true;
+		}
 		return isTrue;
 	}
-	
+
 }
