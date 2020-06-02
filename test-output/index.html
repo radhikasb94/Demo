@@ -101,7 +101,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="main.com.bayer.frontend.selenium.testcases.AccessAmazon" hash-for-method="login">login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -119,7 +119,7 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon</span>
+              <span class="class-name">main.com.bayer.frontend.selenium.testcases.AccessAmazon</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -127,13 +127,15 @@
                   <a name="login">
                   </a> <!-- login -->
                   <span class="method-name">login</span>
-                  <div class="stack-trace">java.lang.AssertionError: Unable to locate the element: &lt;/br&gt;&lt;font color=red&gt;home :-  xpath=//a[contains(text()&lt;/font&gt;
-	at com.bayer.digitalfarming.frontend.selenium.utils.handlers.BaseHandler.findElement(BaseHandler.java:104)
-	at com.bayer.digitalfarming.frontend.selenium.utils.handlers.ElementHandler.clickElement(ElementHandler.java:35)
-	at com.bayer.digitalfarming.frontend.selenium.pages.AmazonHomePage.clkHome(AmazonHomePage.java:46)
-	at com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon.login(AccessAmazon.java:18)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
+                  <div class="stack-trace">java.lang.AssertionError: Unable to locate the element: &lt;/br&gt;&lt;font
+                      color=red&gt;user :- NAME=username&lt;/font&gt;
+                      at main.com.bayer.frontend.selenium.utils.handlers.BaseHandler.findElement(BaseHandler.java:104)
+                      at
+                      main.com.bayer.frontend.selenium.utils.handlers.ElementHandler.writeText(ElementHandler.java:62)
+                      at main.com.bayer.frontend.selenium.pages.AmazonHomePage.enterUser(AmazonHomePage.java:33)
+                      at main.com.bayer.frontend.selenium.testcases.AccessAmazon.login(AccessAmazon.java:15)
+                      ... Removed 25 stack frames
+                  </div> <!-- stack-trace -->
                   <em>
 (Login on Application)                  </em>
                 </div> <!-- method-content -->
@@ -196,12 +198,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon')
-data.setCell(0, 3, 10892);
+data.setCell(0, 3, 129617);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -217,9 +219,6 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">login : Entered The URL</br></span>
                 <span class="reporter-method-output">login : Home Page is Displaed Sucessfully </br></span>
-                <span class="reporter-method-output">login : Entered User Name Sucessfully </br></span>
-                <span class="reporter-method-output">login : Entered Password sucessfully </br></span>
-                <span class="reporter-method-output">login : Clicked On Submit</br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -237,7 +236,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">main.com.bayer.frontend.selenium.testcases.AccessAmazon</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
@@ -246,11 +245,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">login</span>
-                <span class="method-start">9076 ms</span>
+                <span class="method-start">41653 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=login status=FAILURE method=AccessAmazon.login()[pri:0, instance:com.bayer.digitalf...)</span>
-                <span class="method-start">20421 ms</span>
+                <span class="method-start">173660 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

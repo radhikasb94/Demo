@@ -7,37 +7,28 @@
     <line>
       <![CDATA[login : Home Page is Displaed Sucessfully </br>]]>
     </line>
-    <line>
-      <![CDATA[login : Entered User Name Sucessfully </br>]]>
-    </line>
-    <line>
-      <![CDATA[login : Entered Password sucessfully </br>]]>
-    </line>
-    <line>
-      <![CDATA[login : Clicked On Submit</br>]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="21166" started-at="2020-05-12T12:57:03Z" finished-at="2020-05-12T12:57:24Z">
+  <suite name="Suite" duration-ms="182162" started-at="2020-05-18T08:47:25Z" finished-at="2020-05-18T08:50:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="21166" started-at="2020-05-12T12:57:03Z" finished-at="2020-05-12T12:57:24Z">
-      <class name="com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon@53b32d7]" name="setup" is-config="true" duration-ms="9076" started-at="2020-05-12T18:27:03Z" finished-at="2020-05-12T18:27:12Z">
+    <test name="Test" duration-ms="182162" started-at="2020-05-18T08:47:25Z" finished-at="2020-05-18T08:50:28Z">
+      <class name="main.com.bayer.frontend.selenium.testcases.AccessAmazon">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon@53b32d7]" name="setup" is-config="true" duration-ms="41652" started-at="2020-05-18T14:17:25Z" finished-at="2020-05-18T14:18:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="login()[pri:0, instance:com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon@53b32d7]" name="login" duration-ms="10892" started-at="2020-05-12T18:27:12Z" description="Login on Application" finished-at="2020-05-12T18:27:23Z">
+        <test-method status="FAIL" signature="login()[pri:0, instance:com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon@53b32d7]" name="login" duration-ms="129617" started-at="2020-05-18T14:18:07Z" description="Login on Application" finished-at="2020-05-18T14:20:17Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unable to locate the element: </br><font color=red>home :-  xpath=//a[contains(text()</font>]]>
+              <![CDATA[Unable to locate the element: </br><font color=red>user :-  NAME=username</font>]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Unable to locate the element: </br><font color=red>home :-  xpath=//a[contains(text()</font>
+                <![CDATA[java.lang.AssertionError: Unable to locate the element: </br><font color=red>user :-  NAME=username</font>
 	at org.testng.Assert.fail(Assert.java:94)
-	at com.bayer.digitalfarming.frontend.selenium.utils.handlers.BaseHandler.findElement(BaseHandler.java:104)
-	at com.bayer.digitalfarming.frontend.selenium.utils.handlers.ElementHandler.clickElement(ElementHandler.java:35)
-	at com.bayer.digitalfarming.frontend.selenium.pages.AmazonHomePage.clkHome(AmazonHomePage.java:46)
-	at com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon.login(AccessAmazon.java:18)
+	at main.com.bayer.frontend.selenium.utils.handlers.BaseHandler.findElement(BaseHandler.java:104)
+	at main.com.bayer.frontend.selenium.utils.handlers.ElementHandler.writeText(ElementHandler.java:62)
+	at main.com.bayer.frontend.selenium.pages.AmazonHomePage.enterUser(AmazonHomePage.java:33)
+	at main.com.bayer.frontend.selenium.testcases.AccessAmazon.login(AccessAmazon.java:15)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -72,18 +63,9 @@
             <line>
               <![CDATA[login : Home Page is Displaed Sucessfully </br>]]>
             </line>
-            <line>
-              <![CDATA[login : Entered User Name Sucessfully </br>]]>
-            </line>
-            <line>
-              <![CDATA[login : Entered Password sucessfully </br>]]>
-            </line>
-            <line>
-              <![CDATA[login : Clicked On Submit</br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon@53b32d7]" name="tearDown" is-config="true" duration-ms="713" started-at="2020-05-12T18:27:24Z" finished-at="2020-05-12T18:27:24Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon@53b32d7]" name="tearDown" is-config="true" duration-ms="8472" started-at="2020-05-18T14:20:19Z" finished-at="2020-05-18T14:20:28Z">
           <params>
             <param index="0">
               <value>
@@ -94,7 +76,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.bayer.digitalfarming.frontend.selenium.testcases.AccessAmazon -->
+      </class> <!-- AccessAmazon -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
