@@ -2948,3 +2948,150 @@ INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Entered the url
 INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Digital Farming Login page is displayed as expected
 INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Clicked on Google Search box 
 INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Contain Has been searched sucessfully 
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : mainpage.properties,amazon.properties,yatra.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : mainpage.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : amazon.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : yatra.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Entered The URL
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Home Page is Displaed Sucessfully 
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - clicked on your trips
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - clicked on Register
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Switched Frame
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Entered user name
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Entered The URL
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Home Page is Displaed Sucessfully 
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - clicked on your trips
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - clicked on Register
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Switched Frame
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Entered user name
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Entered The URL
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Home Page is Displaed Sucessfully 
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - clicked on your trips
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - clicked on Register
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Switched Frame
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Entered user name
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Entered The URL
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Home Page is Displaed Sucessfully 
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - clicked on your trips
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - clicked on Register
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Switched Frame
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Entered user name
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Entered The URL
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Home Page is Displaed Sucessfully 
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - clicked on your trips
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - clicked on Register
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Switched Frame
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Entered user name
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Entered The URL
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Home Page is Displaed Sucessfully 
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - clicked on your trips
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - clicked on Register
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Switched Frame
+INFO main main.com.bayer.frontend.selenium.utils.test.BaseTest - Entered user name
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : cleartrip.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }

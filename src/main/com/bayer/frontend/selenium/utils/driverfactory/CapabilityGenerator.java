@@ -76,7 +76,7 @@ public class CapabilityGenerator {
 				// WebDriver driver=new ChromeDriver();
 				System.out.println("CHROME Loaded");
 				// ------Pushpendra
-				// ----Added for Desigred Capabilities---------
+				// ----Added for Desired Capabilities---------
 
 				// cap = DesiredCapabilities.chrome();
 				/*
