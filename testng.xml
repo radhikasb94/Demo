@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="main.com.bayer.frontend.selenium.testcases.CleartripSignup"/>
+      <class name="main.com.bayer.frontend.selenium.testcases.AccessHomepage"/>
       </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
