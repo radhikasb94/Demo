@@ -3101,3 +3101,8 @@ INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - L
 INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
 INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
 INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - List of files to load : homePage.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : homePage.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : global.properties
+INFO main main.com.bayer.frontend.selenium.utils.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main main.com.bayer.frontend.selenium.utils.driverfactory.DriverFactory - Desired Capabilities : Capabilities {Capablity_name: Capablity_value, browserName: chrome, goog:chromeOptions: {args: [-no-Sandbox, disable-popup-blocking, test-type, start-maximized, disabled-infobars], extensions: [], useAutomationExtension: false}, platform: ANY, version: }
